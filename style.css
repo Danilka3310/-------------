@@ -158,7 +158,7 @@ h1{
     opacity: 0px;
 }
 
-.section1{
+.section_a{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -170,7 +170,7 @@ h1{
     top: 828px;
 }
 
-.section1 .title{
+.section_a .title{
     position: absolute;
     width: 314.96px;
     height: 47px;
@@ -183,7 +183,7 @@ h1{
     background-color: #ff0070;
 }
 
-.section1 .texta{
+.section_a .texta{
     position: absolute;
     width: 648.92px;
     height: 211px;
