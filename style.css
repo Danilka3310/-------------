@@ -1,20 +1,20 @@
 
 @font-face { 
     font-family: "IBM Plex Mono"; 
-    src: url(IBMPlexMono-Regular.ttf); 
+    src: url(fonts/IBMPlexMono-Regular.ttf); 
     font-weight: 400; 
 } 
    
 @font-face { 
     font-family: "IBM Plex Mono"; 
-    src: url(IBMPlexMono-Bold.ttf); 
+    src: url(fonts/IBMPlexMono-Bold.ttf); 
     font-weight: 700; 
 } 
 
 body { 
     width: 1024px;
-    height: 5008px;
-    background: #FFF1F7;
+    height: 768px;
+    background: #000028;
     position: relative;
 } 
 
@@ -41,13 +41,13 @@ button {
     font-size: 18px; 
     font-weight: 400; 
     line-height: 18px; 
-    color: #353430; 
+    color: #FF0070; 
     cursor: pointer; 
     text-align: center; 
 } 
 
-.isActiveButton { 
-    border: 1px solid #353430 !important; 
+.Button { 
+    border: 1px solid #FF0070; 
 } 
 
 .noFocus {
