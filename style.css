@@ -64,7 +64,7 @@ h1 {
     font-weight: 700;
     font-size: 157px;
     line-height: 129.53px;
-    color: #ffc2e6;
+    color: #DB00FF;
     text-shadow: 4px 4px 0 #FF0070;
 } 
 
@@ -82,8 +82,8 @@ p {
     font-weight: 700; 
     line-height: 23.4px; 
     text-align: left; 
-    color: #353430; 
-    background: #FF8DCB; 
+    color: #000028;
+    background: #FF0070; 
 }
 
 .bord { 
