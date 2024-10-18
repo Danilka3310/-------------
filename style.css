@@ -11,11 +11,17 @@
     font-weight: 700; 
 } 
 
+html {
+    box-sizing: border-box;
+}
+
 body { 
     width: 1024px;
     height: 768px;
     background: #000028;
     position: relative;
+    display: flex;
+    justify-content: center;
 } 
 
 header {
@@ -46,7 +52,7 @@ button {
     text-align: center; 
 } 
 
-.Button { 
+.Buttons { 
     border: 1px solid #FF0070; 
 } 
 
@@ -121,7 +127,7 @@ main {
     padding: 0 20px;
 }
 
-.capital_1 {
+.title_1 {
     width: 314.96px;
     height: 47px;
 }
@@ -132,9 +138,10 @@ h2 {
     font-size: 18px; 
     line-height: 23.4px; 
     text-align: left; 
+    color: #FF0070;
 } 
    
-.small_1{ 
+.txt_in_title_1{ 
     width: 648.92px; 
     height: 244px; 
 } 
@@ -155,13 +162,13 @@ span {
     padding: 0 20px 0 20px;
 }
 
-.capital_2 {
+.title_2 {
     width: 315px;
     height: 47px;
     left: 20px;
 }
 
-.small_2 {
+.txt_in_title_2 {
     width: 984px;
     height: 508px;
     display: flex;
@@ -178,12 +185,12 @@ span {
     display: flex;
 }
 
-.capital_3 {
+.title_3 {
     width: 315px;
     height: 98px;
 }
 
-.small_3 {
+.txt_in_title_3 {
     width: 649px;
     height: 1015px;
     gap: 20px;
